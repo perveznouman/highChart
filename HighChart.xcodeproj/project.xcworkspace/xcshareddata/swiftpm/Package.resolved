@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "highcharts-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/highcharts/highcharts-ios",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7c63dce487789a4b3ca8899e5e8c23400b163556"
+      }
+    }
+  ],
+  "version" : 2
+}
