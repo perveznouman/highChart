@@ -21,5 +21,12 @@ public enum ChartType: String {
     case AreaRange = "arearange"
     case Gauge = "gauge"
     case Scatter = "scatter"
-
 }
+
+
+public enum XPlotType: String {
+    case Week
+    case Month
+    case Year
+}
+
