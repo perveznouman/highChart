@@ -15,7 +15,7 @@ class ChartOption {
         let options = HIOptions()
         options.yAxis = [chartData.generateYAxis()]
         options.xAxis = [chartData.generateXAxis()]
-        options.series = [chartData.generateHSeries(name: "Cappuccino"), chartData.generateHSeries(name: "Latte"), chartData.generateHSeries(name: "Espresso"), chartData.generateHSeries(name: "Green Tea"), chartData.generateHSeries(name: "Ginger Tea")]
+        options.series = [chartData.generateHSeries(name: "Cappuccino"), chartData.generateHSeries(name: "Latte"), chartData.generateHSeries(name: "Espresso"), chartData.generateHSeries(name: "Green Tea")]
         return options
 
     }
