@@ -30,7 +30,7 @@ class HChartData {
         yAxis.tickInterval = yAxisInterval()
         yAxis.type = "linear"
         yAxis.title = HITitle()
-        yAxis.title.text = plotType.rawValue + "ly Sales"
+        yAxis.title.text = "Sales"
         return yAxis
     }
 
