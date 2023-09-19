@@ -24,7 +24,7 @@ public enum ChartType: String {
 }
 
 
-public enum XPlotType {
+public enum XPlotType: String {
     case Week
     case Month
     case Year

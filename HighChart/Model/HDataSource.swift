@@ -9,10 +9,14 @@ import Foundation
 import Highcharts
 
 
-class HChartData {
+class ChartData {
         
     var plotType: XPlotType
     init(type: XPlotType) {
+        plotType = type
+    }
+    
+    public func setPlotType(type: XPlotType) {
         plotType = type
     }
     
@@ -30,7 +34,7 @@ class HChartData {
         yAxis.tickInterval = yAxisInterval()
         yAxis.type = "linear"
         yAxis.title = HITitle()
-        yAxis.title.text = "Sales"
+        yAxis.title.text = plotType.rawValue + "ly Sales"
         return yAxis
     }
 
